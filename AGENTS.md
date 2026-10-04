@@ -53,6 +53,20 @@ xcodebuild -project Nofesh.xcodeproj -scheme Nofesh \
 2. Reuse the frozen 5-view character sheet; generate per-exercise start-frame stills + motion takes.
 3. Encode via `encode.sh`, then point `routines.json` `exercise.visual` at the asset.
 
+## Decision logging convention (mandatory)
+
+**Whenever a product/architecture decision is locked, record it in this file in the
+same commit as the code change.** Without this, handoffs go stale and a future agent
+may overturn a settled decision.
+
+Rules:
+1. Add the decision under "Product decisions (locked)" (or a new dated subsection
+   if it's architectural) in the **same commit** that implements/changes it.
+2. Format: keep it one bolded bullet, outcome-first, with a short rationale in parentheses.
+3. If you rename/deprecate an earlier decision, strike it out — don't silently delete.
+4. When a new chat starts, read this file top to bottom before proposing anything;
+   treat every bullet as settled unless the human explicitly reopens it.
+
 ## Environment / agent notes
 
 - This dev box: Apple M5, 24GB RAM. Xcode 26.4, iOS 26.4 SDK, simulators available (iPhone 17 Pro etc.).

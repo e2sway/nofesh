@@ -25,4 +25,5 @@ Current task: <STATE WHAT YOU WANT DONE>
 ---
 
 Notes: Refresh/extend this file only when a product decision or architecture fact changes —
-it's the handoff contract for every new chat.
+it's the handoff contract for every new chat. Locked decisions must be recorded in
+`AGENTS.md` (see its "Decision logging convention") in the same commit that implements them.
