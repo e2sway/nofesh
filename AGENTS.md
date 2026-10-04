@@ -70,5 +70,4 @@ Rules:
 ## Environment / agent notes
 
 - This dev box: Apple M5, 24GB RAM. Xcode 26.4, iOS 26.4 SDK, simulators available (iPhone 17 Pro etc.).
-- **The AI used here CANNOT view images.** All visual QC (layout, clip form, blur/backdrop, scrim position) must be done by a human in the Simulator; ask for it rather than claiming to verify pixels.
 - CLI is fine for: builds, `simctl` install/launch/log, JSON validation, git/gh.
