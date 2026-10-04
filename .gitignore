@@ -1,0 +1,24 @@
+# Xcode / Swift
+build/
+DerivedData/
+.derivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Nofesh generation workspace (intermediate stills + raw takes are regenerable)
+_generation/
+
+# User secrets / signing
+*.mobileprovision
+*.p12
+*.cer
+.env

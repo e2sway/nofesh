@@ -1,0 +1,126 @@
+{
+  "blocks": [
+    {
+      "id": "morning-reset",
+      "title": "Morning Reset",
+      "subtitle": "Upper spine alignment & posterior chain relief",
+      "focus": "Resetting forward-head posture relieves the pull on your entire spine before your day compounds it.",
+      "suggestedTime": "10:00",
+      "position": "either",
+      "exercises": [
+        {
+          "id": "chin-tucks",
+          "name": "Tech Neck Chin Tucks",
+          "position": "either",
+          "duration": 60,
+          "whyItHelps": "A forward head position causes a chain reaction of tension down your entire spine. Resetting this relieves the pull on your lower back.",
+          "visual": { "video": { "assetName": "chin-tuck" } },
+          "segments": [
+            {
+              "title": "Glide back",
+              "duration": 60,
+              "cue": "Sit or stand up tall, shoulders relaxed. Look straight ahead and glide your head straight back — creating a double chin. Do not tilt your head up or down. Hold 3–5 seconds, release. Repeat 10–15 times."
+            }
+          ]
+        },
+        {
+          "id": "spinal-decompression",
+          "name": "Seated Spinal Decompression",
+          "position": "seated",
+          "duration": 60,
+          "whyItHelps": "Taking the weight off your pelvis unloads compressed discs and lets your spine re-lengthen after hours of sitting.",
+          "visual": { "video": { "assetName": "spinal-decompression" } },
+          "segments": [
+            {
+              "title": "Press & lift",
+              "duration": 60,
+              "cue": "Sit at the edge of your chair, feet flat. Place hands on the armrests or the seat. Press down gently to lift your torso, taking the weight off your pelvis. Keep shoulders down — don't shrug. Hold 10–15 seconds, breathing deeply. Repeat 3 times."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "midday-hip-unlocker",
+      "title": "Mid-Day Hip Unlocker",
+      "subtitle": "Lengthening the hip flexors",
+      "focus": "Correcting the adaptive shortening of hip flexors caused by cycling and sitting — before your pelvis gets pulled out of alignment.",
+      "suggestedTime": "13:00",
+      "position": "standing",
+      "exercises": [
+        {
+          "id": "hip-flexor-stretch",
+          "name": "Standing Hip Flexor Stretch",
+          "position": "standing",
+          "duration": 120,
+          "whyItHelps": "This directly combats the adaptive shortening of the hip flexors, which is pulling your pelvis out of alignment.",
+          "visual": { "video": { "assetName": "hip-flexor" } },
+          "segments": [
+            {
+              "title": "Right leg back",
+              "duration": 30,
+              "cue": "Split stance, right foot back, holding your desk or chair for balance. Keep both legs relatively straight. Tuck your pelvis backward — imagine pulling your belt buckle up toward your chin. Feel the stretch down the front of the right hip. Hold 30 seconds."
+            },
+            {
+              "title": "Left leg back",
+              "duration": 30,
+              "mirrored": true,
+              "cue": "Switch legs — left foot back. Tuck your pelvis backward and gently lean forward into the front leg to deepen the stretch without arching your lower back. Hold 30 seconds."
+            },
+            {
+              "title": "Right leg back 2",
+              "duration": 30,
+              "cue": "Back on the right leg. Keep the tuck — belt buckle up and toward the chin. Do not arch your lower back. Hold 30 seconds."
+            },
+            {
+              "title": "Left leg back 2",
+              "duration": 30,
+              "mirrored": true,
+              "cue": "Final round on the left leg. Gently lean forward into the front leg to deepen the stretch. Hold 30 seconds and release."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afternoon-activation",
+      "title": "Afternoon Activation",
+      "subtitle": "Pelvic awareness & waking up the glutes",
+      "focus": "Rebuilding active control over your pelvis and switching the glutes back on so they can stabilize your lower back.",
+      "suggestedTime": "16:00",
+      "position": "seated",
+      "exercises": [
+        {
+          "id": "seated-pelvic-tilts",
+          "name": "Seated Pelvic Tilts",
+          "position": "seated",
+          "duration": 60,
+          "whyItHelps": "This builds active muscular control over your pelvic position, helping you naturally find and hold a neutral spine.",
+          "visual": { "video": { "assetName": "pelvic-tilt" } },
+          "segments": [
+            {
+              "title": "Roll it",
+              "duration": 60,
+              "cue": "Sit up straight on the edge of your chair, feet flat, hands on your hips. Slowly roll your pelvis forward (arching your lower back slightly), then roll it backward (tucking your tailbone and flattening your lower back). Alternate smoothly for 60 seconds."
+            }
+          ]
+        },
+        {
+          "id": "standing-glute-squeezes",
+          "name": "Standing Glute Squeezes",
+          "position": "standing",
+          "duration": 60,
+          "whyItHelps": "Sitting turns the glutes 'off'. Waking them up ensures they can help stabilize your pelvis and lower back when you leave the desk.",
+          "visual": { "video": { "assetName": "glute-squeeze" } },
+          "segments": [
+            {
+              "title": "Squeeze & hold",
+              "duration": 60,
+              "cue": "Stand up tall at your desk. Actively squeeze your glutes together as hard as you can. Hold the squeeze 5–10 seconds, release, and repeat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
