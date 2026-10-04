@@ -27,7 +27,6 @@ iOS / SwiftUI, iOS 17+.
 - **Content = 2-minute "micro-breaks"**, silent, text-cue-driven. No voice, no audio, ever.
 - **Character = stylized clay mannequin, NOT a realistic AI human** (evidence: Wakeout AI-human backlash — users don't trust fake human form).
 - **Permissions are deferred until after the FIRST completed reset** (one combined "enable gaps + nudges" prompt). No permission dialogs on onboarding or first loop. This replaced two dead/mis-timed paths — don't reintroduce in-routine prompts.
-- **Real free tier + transparent pricing; easy in-app cancel.** Never a "charged full year from free trial" pattern (the category's #1 churn cause).
 - **Player stage is portrait (9:16), aspect-agnostic renderer** (aspectFit + blurred backdrop, never crops).
 - The exercise **"why this helps"** copy stays a slim card below the stage; title+cue live in the bottom scrim.
 
